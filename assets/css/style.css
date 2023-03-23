@@ -1,8 +1,24 @@
-/* Generic rulesets follow. */
+/** 
+* DOCUMENT COLOR REFERENCE
+* #d9dcd6 - Logo accent color and site background color.
+* #ffffff - Pure white used for all text color.
+* #2a607c - Header background color.
+* #0072bb - Main content background color.
+* #2589bd - Sidebar background color.
+*/
+
+/**
+* Generic rulesets follow.
+* Removes default padding and margin, sets default background color,
+* paragraph text size, and removes link color and styling.
+* Sets white as default color for all text.
+*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #ffffff;
 }
 
 body {
@@ -10,19 +26,24 @@ body {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
 p {
     font-size: 16px;
 }
-/* All header rulesets follow. */
+
+/** 
+* All header rulesets follow.
+* Sets specific font family and background color.
+* Adds logo accent color on 'seo' section.
+* Formats nav elements into horizontal, non-bulleted list.
+*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 header h1 {
@@ -50,7 +71,13 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Hero image ruleset follows. */
+
+/**
+* Hero image ruleset follows.
+* Sets background hero image for site.
+* Unable to add alt-text, but the image is of decorative quality only.
+*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -59,7 +86,13 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
-/* All main content rulesets follow.  */
+
+/**
+* Main content rulesets follow.
+* Creates the main content section, and divides iit into 3 boxes.
+* Sets background color, floats for the images, and display type.
+*/
+
 .content {
     width: 75%;
     display: inline-block;
@@ -72,7 +105,6 @@ header nav ul li {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
 .content-specific img {
@@ -93,7 +125,14 @@ header nav ul li {
     float: right;
     margin-left: 25px;
 }
-/* All sidebar rulesets follow. */
+
+/**
+* Sidebar rulesets follow.
+* Sets sidebar background color and location.
+* Centers text and images.
+*/
+
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -107,7 +146,6 @@ header nav ul li {
 
 .benefits_specific {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefits_specific h3 {
@@ -120,7 +158,14 @@ header nav ul li {
     margin: 10px auto;
     max-width: 150px;
 }
-/* Footer rulesets follow. */
+
+/**
+* Footer rulesets follow.
+* Sets the font family and size, aligns it in the center and 
+* buffers it from floats and the content and sidebar sections.
+* Sets text color to black. 
+*/
+
 footer {
     padding: 30px;
     clear: both;
@@ -130,4 +175,9 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+footer h2,
+footer p {
+    color: #000000;
 }

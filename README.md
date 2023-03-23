@@ -1,13 +1,22 @@
-# bootcamp-challenge-one
+# Bootcamp Challenge One
 
-## Purpose
+## Description
 
-The purpose of this challenge is to update the given webpage to proper accessibility standards, such as adding alt text to all the images, as well as converting all the HTML elements to be semantic. Additional fixes include a dead header link, consolidated CSS and HTML class tags, and added comments for explanation of code functionality.
+This project is a refactoring of a Horiseon Marketing webpage in order to update it to proper accessibility standards. A non-exhaustive list of the changes made are as follows:
 
-## Screenshot
+* Alt text has been added to the images.
+* All HTML elements have been converted to their semantic variants.
+* Dead link in the navigation bar fixed.
+* Class tags have been consolidated, along with their corresponding CSS rulesets.
+* Extensive CSS comments explaining functionality.
+* CSS reorganized to follow a logical order matching the HTMl order.
 
-Coming Soon
+This project was useful in teaching me about HTML and CSS best practices, as well as how to properly read and interpret project user stories and acceptance criteria. It also showed the importance of semantic HTML elements, and how to effectively read and parse pre-written code.
 
 ## Finished Webpage
 
-Coming Soon
+The finished webpage can be found [here!](https://alecryanhunter.github.io/bootcamp-challenge-one)
+
+## Screenshot
+
+![A screenshot of the finished webpage.](./assets/images/finished-site-screenshot.png)
